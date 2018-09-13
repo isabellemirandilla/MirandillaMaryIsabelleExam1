@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view8"
+        style="@style/view3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/text_view1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text_view2"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-80dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="162dp"
+        android:layout_height="178dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/clarkkent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/text_view3" />
+
+    <View
+        android:id="@+id/view7"
+        style="@style/view2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/text_view4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/text_view5"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/text_view6" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="104dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="27dp"
+        app:srcCompat="@drawable/brucewayne" />
+
+    <View
+        android:id="@+id/view5"
+        style="@style/view1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/text_view7" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/text_view8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/text_view9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="123dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="17dp"
+        app:srcCompat="@drawable/barackobama" />
+
+</RelativeLayout>
